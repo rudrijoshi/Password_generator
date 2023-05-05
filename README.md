@@ -1,100 +1,75 @@
-# 03 JavaScript: Password Generator
+# Password Generator
 
-## Your Task
+## Description
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+- What was your motivation? : To complete the project as it strengthens my skliis for javascript.
+- Why did you build this project?: Main purpose of building this project was to explore my knowledge with HTML, CSS and javascript.
+- What problem does it solve? It recommends us a strong password of user's choice by meeting the user's criteria.
+- What did you learn? Learn how to apply different functions, variables and other commands and see the wonder when you open in the browser.
 
-## User Story
+## Installation
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
-## Acceptance Criteria
+First and foremost to create a new repository in GitHub and then clone it to the local machine and then open the Git Bash to open Visual Studio.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+In VS code wrote all the javascript command with HTML and CSS in place and completed the project.
 
-## Mock-Up
+## Usage
 
-The following image shows the web application's appearance and functionality:
+Provide instructions and examples for use. Include screenshots as needed.
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-## Grading Requirements
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Credits
 
-This Challenge is graded based on the following criteria: 
+List your collaborators, if any, with links to their GitHub profiles.
 
-### Technical Acceptance Criteria: 40%
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-* Satisfies all of the preceding acceptance criteria.
+If you followed tutorials, include links to those here as well. : https://www.w3schools.com/
+## License
 
-### Deployment: 32%
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
-* Application deployed at live URL.
+---
 
-* Application loads with no errors.
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-* Application GitHub URL submitted.
+## Badges
 
-* GitHub repository that contains application code.
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-### Application Quality: 15%
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-* Application user experience is intuitive and easy to navigate.
+## Features
 
-* Application user interface style is clean and polished.
+If your project has a lot of features, list them here.
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+## How to Contribute
 
-### Repository Quality: 13%
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
-* Repository has a unique name.
+## Tests
 
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 You are required to submit the following for review:
 
-* The URL of the deployed application.
+* The URL of the deployed application.:
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+* The URL of the GitHub repository, with a unique name and a readme describing the project.:
 
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+
+
+
+
+
