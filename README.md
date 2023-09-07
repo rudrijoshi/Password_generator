@@ -2,30 +2,19 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation? : To complete the project as it strengthens my skliis for javascript.
-- Why did you build this project?: Main purpose of building this project was to explore my knowledge with HTML, CSS and javascript.
-- What problem does it solve? It recommends us a strong password of user's choice by meeting the user's criteria.
-- What did you learn? Learn how to apply different functions, variables and other commands and see the wonder when you open in the browser.
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-First and foremost to create a new repository in GitHub and then clone it to the local machine and then open the Git Bash to open Visual Studio.
-
-In VS code wrote all the javascript command with HTML and CSS in place and completed the project.
+This password generator is designed to help you create strong, secure passwords that meet your
+specific criteria. When you click the password generation button, you will be guided through a
+series of prompts to customize your password. You can select the desired length, character types
+(lowercase, uppercase, numeric, and special characters), and more. Once you've completed the
+prompts, a password that matches your criteria will be generated for you. This password can be
+displayed in an alert or written to the page, ensuring that you have a secure and reliable
+password at your disposal.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Screenshot of password generator
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![screenshot of password generator](./Assets/03-javascript-homework-demo.png)
 
 ## Credits
 
