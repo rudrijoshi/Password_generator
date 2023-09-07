@@ -12,7 +12,7 @@ function getRequirements() {
   if (!selectedLength) {
     window.alert("This needs a value!");
   } else if (selectedLength < 8 || selectedLength > 128) {
-    window.prompt("Please enter a valid input");
+    window.alert("Please enter a valid input");
     return;
   }
   var includeNumber = prompt("How many numbers to be included?");
@@ -45,7 +45,7 @@ function generatePasswordWithRequirements(selectedLength, includeNumber, include
     selectAll = selectAll.concat(character);
   }
   for (var i = 0; i < selectedLength; i++) {
-    var randomIndex = Math.floor(Math.random() * selectAll.selectedLength);
+    var randomIndex = Math.floor(Math.random() * selectAll.length);
     finalPassword += selectAll[randomIndex];
   }
   return finalPassword;
